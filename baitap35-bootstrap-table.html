@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<style>
+		*{font-size: 20px;padding: 10px;margin: 0 10px;}
+	</style>
+	<title>Bài tập bootstrap table-icon</title>
+</head>
+<body>
+	<div class="container"style="background:white;">
+		<div class="alert-success">
+			<i class="fa fa-check-square" style="color:green;"></i>
+			<span>SUCCESS - THIS IS A SUCCESS MESSAGE</span>
+			<i class="fa fa-times-rectangle-o" style="float:right;color:black;"></i>
+		</div>
+		<div class="alert-danger">
+			<i class="fa fa-window-close" style="color:red;"></i>
+			<span>FAILURE - THIS IS A FAILURE MESSAGE</span>
+			<i class="fa fa-times-rectangle-o" style="float:right;color:black;"></i>
+		</div>
+		<hr>
+		<header>Table</header>
+		<hr>
+		<div class="container-fruid">
+			<span>Lorem ipsum is sumply dummy text of the printing and typesetting industry. Lorem Ipsum has beeen the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it to make a tyoe specimen book.</span>
+		</div>
+		<table class="table table-bordered table-hover">
+			<thead class="table table-primary">
+				<tr>
+					<th>Column 1</th>
+					<th>Column 2</th>
+					<th>Column 3</th>
+					<th>Column 4</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>John Doe</td>
+					<td><a href="">john.doe@hotmail.com</a></td>
+					<td>
+						<i class="fa fa-folder-open" style="color: #FECC66;margin:0;padding:0;"></i>
+						<i class="fa fa-user" style="color:green;margin:0;padding:0;"></i>
+						<i class="material-icons" style="margin:0;padding:0;">chat_bubble_outline</i>		
+						<i class="fa fa-close" style="color:red;margin:0;padding:0;"></i>
+					</td>
+					<td>
+						<input type="checkbox">
+					</td>
+				</tr>
+				<tr class="table table-warning">
+					<td>Jackie Ching</td>
+					<td><a href="">j.ching@yahoo.com</a></td>
+					<td>
+						<i class="fa fa-folder-open" style="color: #FECC66;margin:0;padding:0;"></i>
+						<i class="fa fa-user" style="color:green;margin:0;padding:0;"></i>
+						<i class="material-icons" style="margin:0;padding:0;">chat_bubble_outline</i>		
+						<i class="fa fa-close" style="color:red;margin:0;padding:0;"></i>
+					</td>
+					<td>
+						<input type="checkbox">
+					</td>
+				</tr>
+				<tr>
+					<td>Samatha Dollock</td>
+					<td><a href="">sam.dollock@hotmail.com</a></td>
+					<td>
+						<i class="fa fa-folder-open" style="color: #FECC66;margin:0;padding:0;"></i>
+						<i class="fa fa-user" style="color:green;margin:0;padding:0;"></i>
+						<i class="material-icons" style="margin:0;padding:0;">chat_bubble_outline</i>		
+						<i class="fa fa-close" style="color:red;margin:0;padding:0;"></i>
+					</td>
+					<td>
+						<input type="checkbox">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
